@@ -391,15 +391,7 @@ legend + * {
   clear: left;
 }
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-year-field {
-  padding: 0;
-}
+
 
 ::-webkit-inner-spin-button {
   height: auto;
@@ -426,7 +418,7 @@ legend + * {
   padding: 0;
 }
 
-::file-selector-button {
+::-webkit-file-upload-button{
   font: inherit;
 }
 
@@ -2344,7 +2336,7 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-image:url("../assets/img/backgroundimage.jpg");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
@@ -10835,8 +10827,8 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
-  background-attachment: fixed;
+  background-image: url('../assets/img/backgroundimage.jpg');
+  background-attachment: fixed;.
   background-position: center;
   background-size: cover;
 }
